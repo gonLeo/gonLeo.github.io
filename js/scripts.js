@@ -94,31 +94,31 @@ window.addEventListener('DOMContentLoaded', event => {
                 {
                     title: "Spotify Interface with React",
                     description: "A clone of the Spotify interface using React, focusing on componentization and creating a fluid and responsive user experience.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*dMXncWhddVrZyx_a9EW_Fg.png",
                     githubUrl: "https://github.com/gonLeo/spotify"
                 },
                 {
                     title: "Academy System (Poligym)",
                     description: "A full-stack gym workout academy system built with Java and React, featuring user management and workout planning.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://www.megadix.it/img/blog/create-react-app-servlet/banner.png",
                     githubUrl: "https://github.com/gonLeo/poligym"
                 },
                 {
                     title: "Spring Boot RESTful Services",
                     description: "Hands‑on project with Spring Boot, building RESTful Web Services using Spring MVC and JPA.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://rdrblog.com.br/wp-content/uploads/2020/08/Spring-BOOT-Interview-questions-1.jpg",
                     githubUrl: "https://github.com/gonLeo/cursoSpringboot"
                 },
                 {
                     title: "OmniStack Week (Node & React)",
                     description: "Project from Rocketseat's OmniStack course, implementing a full-stack app using Node.js and React.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://t2.tudocdn.net/572277?w=1920",
                     githubUrl: "https://github.com/gonLeo/semanaOmnistack"
                 },
                 {
                     title: "Adonis API Boilerplate",
                     description: "Starter API project using AdonisJS, pre‑configured with authentication, ORM, migrations and CORS.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*EV0GM5-4hB9fAqmNpPPHcQ.png",
                     githubUrl: "https://github.com/gonLeo/adonisServer"
                 }
             ]
@@ -195,31 +195,31 @@ window.addEventListener('DOMContentLoaded', event => {
                 {
                     title: "Interface do Spotify com React",
                     description: "Um clone da interface do Spotify utilizando React, com foco na componentização e na criação de uma experiência de usuário fluida e responsiva.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*dMXncWhddVrZyx_a9EW_Fg.png",
                     githubUrl: "https://github.com/gonLeo/spotify"
                 },
                 {
                     title: "Sistema de Academia (Poligym)",
                     description: "Sistema completo de academia desenvolvido com Java e React, com funcionalidades de gestão de usuários e planejamento de treinos.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://www.megadix.it/img/blog/create-react-app-servlet/banner.png",
                     githubUrl: "https://github.com/gonLeo/poligym"
                 },
                 {
                     title: "Serviços REST com Spring Boot",
                     description: "Projeto prático utilizando Spring Boot para construção de APIs RESTful com Spring MVC e JPA.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://rdrblog.com.br/wp-content/uploads/2020/08/Spring-BOOT-Interview-questions-1.jpg",
                     githubUrl: "https://github.com/gonLeo/cursoSpringboot"
                 },
                 {
                     title: "Semana OmniStack (Node e React)",
                     description: "Projeto realizado durante a Semana OmniStack da Rocketseat, com desenvolvimento full stack usando Node.js e React.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://t2.tudocdn.net/572277?w=1920",
                     githubUrl: "https://github.com/gonLeo/semanaOmnistack"
                 },
                 {
                     title: "API Boilerplate com AdonisJS",
                     description: "Projeto base de API utilizando AdonisJS, com autenticação, ORM, migrações e CORS configurados.",
-                    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3u8d6fmmCH17pPpBRZEdNmJ-bTKrMTM9njQ&s",
+                    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*EV0GM5-4hB9fAqmNpPPHcQ.png",
                     githubUrl: "https://github.com/gonLeo/adonisServer"
                 }
             ]
