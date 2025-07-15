@@ -242,7 +242,7 @@ window.addEventListener('DOMContentLoaded', event => {
             backToTopBtn.style.display = 'none';
         }
 
-        // Language Switcher visibility on mobile
+        // Language and Dark Mode Switcher visibility on mobile
         const langSwitcherContainer = document.querySelector('.language-switcher');
         if (window.innerWidth < 992) { // Check if it's a mobile view
             if (window.scrollY > 50) { // Hide after scrolling down a bit
@@ -311,11 +311,25 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
     const langSwitcher = document.getElementById('lang-switcher');
+    const darkModeSwitcher = document.getElementById('dark-mode-switcher');
     let currentLang = localStorage.getItem('lang');
+    let darkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
 
     // Ensure English is the default if no language is explicitly set in localStorage
     if (currentLang !== 'pt-br') {
         currentLang = 'en';
+    }
+
+    function applyDarkMode(enabled) {
+        if (enabled) {
+            document.body.classList.add('dark-mode');
+            darkModeSwitcher.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for light mode
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            document.body.classList.remove('dark-mode');
+            darkModeSwitcher.innerHTML = '<i class="fas fa-moon"></i>'; // Moon icon for dark mode
+            localStorage.setItem('darkMode', 'disabled');
+        }
     }
 
     function setLanguage(lang) {
@@ -345,7 +359,13 @@ window.addEventListener('DOMContentLoaded', event => {
         setLanguage(newLang);
     });
 
-    // Set initial language
+    darkModeSwitcher.addEventListener('click', () => {
+        darkModeEnabled = !darkModeEnabled;
+        applyDarkMode(darkModeEnabled);
+    });
+
+    // Set initial language and dark mode
     setLanguage(currentLang);
+    applyDarkMode(darkModeEnabled);
 
 });
